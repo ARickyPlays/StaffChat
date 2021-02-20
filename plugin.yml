@@ -1,0 +1,14 @@
+name: StaffChat
+author: AriefaL
+main: staffchat\Main
+version: 1.08
+api: 3.0.0
+
+commands:
+  staffchat:
+    description: "Chat only staff"
+    aliases: ["sc"]
+
+permissions:
+   staffchat.cmd:
+    default: op
